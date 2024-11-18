@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: olthorel <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: olthorel <olthorel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 10:51:34 by olthorel          #+#    #+#             */
-/*   Updated: 2024/11/12 16:38:06 by olthorel         ###   ########.fr       */
+/*   Updated: 2024/11/18 13:59:36 by olthorel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,9 +42,12 @@ int	ft_putptr(void *ptr)
 {
 	int	len;
 
-	len = ft_putstr("0x");
 	if (ptr == NULL)
-		return (len + ft_putchar('0'));
+	{
+		len = ft_putstr("(nil)");
+		return (len);
+	}
+	len = ft_putstr("0x");
 	len = len + ft_putptrhexa((unsigned long long)ptr);
 	return (len);
 }
