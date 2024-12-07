@@ -60,3 +60,20 @@ Use the **Makefile** to compile the project.
   ```
   ---
   
+## 💻 Usage
+Once compiled, you can use ft_printf in your C code as follows:
+```c
+#include "ft_printf.h"
+
+int main(void)
+{
+    int a = 42;
+    ft_printf("Hello, world! The answer is: %d\n", a);
+    return 0;
+}
+```
+This will display:
+```c
+Hello, world! The answer is: 42
+```
+---
