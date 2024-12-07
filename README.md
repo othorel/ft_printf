@@ -77,3 +77,18 @@ This will display:
 Hello, world! The answer is: 42
 ```
 ---
+## 🧪 Testing
+To test the correct functionality of ft_printf, you can run various test cases with different formats and types, such as:
+```c
+ft_printf("Integer: %d\n", 42);
+ft_printf("String: %s\n", "Hello, world!");
+ft_printf("Hexadecimal: %x\n", 255);
+ft_printf("Character: %c\n", 'A');
+```
+---
+## 🤝 Contributing
+If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request!
+---
+## 🏆 Acknowledgments
+A big thank you to the open-source community and all the resources that helped in the creation of this project.
+---
