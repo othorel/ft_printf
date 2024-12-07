@@ -1,5 +1,8 @@
 # 🛠️ ft_printf - Custom C Function for Formatted Output
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leogaudin/42_project_badges/main/badges/ft_printf.webp" />
+</p>
 
 Welcome to **ft_printf**, a custom implementation of the `printf` function in C! This project is designed to better understand formatted output, improve memory management, and practice working with variadic functions.
 
