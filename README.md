@@ -5,6 +5,11 @@ Welcome to **ft_printf**, a custom implementation of the `printf` function in C!
 
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ugozchi/42_Piscine/refs/heads/main/shell00/img/note.png" />
+</p>
+
+---
 ## 📋 Project Overview
 
 | **Category**            | **Functions**                                                                                           |
