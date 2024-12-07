@@ -48,3 +48,15 @@ Use the **Makefile** to compile the project.
 - **Compile the project:**
   ```bash
   make
+- **Clean the project (remove object files):**
+  ```bash
+  make clean
+- **Full cleanup (remove all generated files):**
+  ```bash
+  make fclean
+- **Recompile after cleaning:**
+  ```bash
+  make re
+  ```
+  ---
+  
